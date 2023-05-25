@@ -417,7 +417,7 @@
     display: grid;
     grid-template-rows: 60px 1fr 40px;
     // grid-template-columns: 360px 290px 30px 1fr 60px;
-    grid-template-columns: 1fr  290px 30px 1fr 1fr 1fr;
+    grid-template-columns: 1fr  350px 30px 1fr 1fr 1fr;
 
 
     .profile-container {
@@ -440,7 +440,7 @@
             grid-column: 1/2;
 
             background-image: url('/img/profile.jpg');
-            background-repeat: repeat;
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
             border: 2px solid whitesmoke;
